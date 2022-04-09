@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/eldorado/AppData/Local/Programs/mongosh/:/mnt/c/Users/eldorado/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eldorado/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/eldorado/AppData/Local/atom/bin:/mnt/c/Users/eldorado/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eldorado/AppData/Local/Programs/mongosh/
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+npm manifest: 
+  {
+    "repository": "#",
+    "license": "UNLICENSED",
+    "scripts": {
+      "build": "webpack --config ./bundler/webpack.prod.js",
+      "dev": "webpack serve --config ./bundler/webpack.dev.js"
+    },
+    "dependencies": {
+      "@babel/core": "^7.16.12",
+      "@babel/preset-env": "^7.16.11",
+      "babel-loader": "^8.2.3",
+      "clean-webpack-plugin": "^4.0.0",
+      "copy-webpack-plugin": "^10.2.4",
+      "css-loader": "^6.5.1",
+      "file-loader": "^6.2.0",
+      "html-loader": "^3.1.0",
+      "html-webpack-plugin": "^5.5.0",
+      "ip": "^1.1.5",
+      "lil-gui": "^0.16.0",
+      "mini-css-extract-plugin": "^2.5.3",
+      "portfinder-sync": "0.0.2",
+      "raw-loader": "^4.0.2",
+      "style-loader": "^3.3.1",
+      "three": "^0.137.5",
+      "webpack": "^5.68.0",
+      "webpack-cli": "^4.9.2",
+      "webpack-dev-server": "^4.7.3",
+      "webpack-merge": "^5.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
